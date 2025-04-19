@@ -80,11 +80,11 @@ router.post('/users', createUserHandler);
  *                 type: object
  *                 properties:
  *                  name:
- *                     type: string
+ *                    type: string
  *                  age:
  *                    type: integer
  *                  email:
- *                     type: string
+ *                    type: string
  */
 router.get('/users', getAllUsersHandler);
 
@@ -110,12 +110,12 @@ router.get('/users', getAllUsersHandler);
  *             schema:
  *               type: object
  *               properties:
- *                  name:
+ *                 name:
  *                   type: string
  *                 age:
  *                   type: integer
  *                 email:
- *                    type: string
+ *                   type: string
  *       404:
  *         description: Usuario no encontrado
  */
@@ -147,7 +147,7 @@ router.get('/users/:id', getUserByIdHandler);
  *                 age:
  *                   type: integer
  *                 email:
- *                    type: string
+ *                   type: string
  *     responses:
  *       200:
  *         description: Usuario actualizado exitosamente
